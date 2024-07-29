@@ -1,0 +1,5 @@
+p=int(input("Enter the initial principle balancr :"))
+r=float(input("Enter the annual interst rate :"))
+t=float(input("time in years"))
+a=p*(1+r*t)
+print(a)
